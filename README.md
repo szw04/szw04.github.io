@@ -1,4 +1,4 @@
-这是一个演示网站，还没想好做什么
+这是一个演示网站，还没想好做什么：）<3
 <html lang="en">
 <head>
     <meta charset="UTF-8">
