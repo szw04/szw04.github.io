@@ -5,6 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <img src="C:\Users\SZW04\Pictures\Camera Roll\微信图片_20240612125142.jpg" alt="" style="width: 10; height: 10;">
+    <img src="微信图片_20240612125142.jpg" alt="" style="width: 50%; height: 50%;">
 </body>
 </html>
