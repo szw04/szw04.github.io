@@ -6,6 +6,6 @@
     <title>HTMLdwe</title>
 </head>
 <body>
-    <img src="微信图片_20240612125142.jpg" alt="牢大" style="width: 10%; height: 10%;">
+    <img src="微信图片_20240612125142.jpg" alt="" style="width: 10; height: 10;">
 </body>
 </html>
