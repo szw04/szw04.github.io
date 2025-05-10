@@ -50,8 +50,30 @@ header a:hover{
 }
 .menu{
     display: none;
- }
- .menu{
+@media screen and (max-width: 768px) {
+    header{
+        height: 60px;
+    }
+    h1{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    header ul{
+        display: none;
+    }
+    header li{
+        margin-right:2vw ;
+    }
+    .start h2 {
+        font-size: 40px;
+    }
+    .start h3{
+        font-size: 20px;
+    }
+    .start p{
+        font-size: 16px;
+    }
+    .menu{
         display: block;
         background-color: transparent;
         color: white;
@@ -61,7 +83,8 @@ header a:hover{
         left: 20px;
         border: none;
         cursor: pointer;
-    }
+    }    
+}
     .footer{
     background-color:wheat ;
     height: 60px;
