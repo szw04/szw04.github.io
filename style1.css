@@ -1,0 +1,162 @@
+/* 个人页背景 */
+
+.start1{
+    background-color: antiquewhite;
+    color: white;
+    height: 100vh;
+    background-image:url("images/雪山.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* 背景文字 */
+.start1 h2 {  
+        color: #333;
+        height: 400px;
+        font-size: 40px;
+        position: fixed;
+    }
+/* 个人简介背景 */
+.name{
+    overflow: hidden;
+    height: 80vh;
+    background-color:#0d080f;
+    display: flex;
+    position: relative;
+}
+/* 个人简介内容 */
+.name p{
+    color: white;
+    font-size: 30px;
+}
+/* 个人简介头像 */
+.name img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 250px;
+}
+/* 个人简介内容 */
+.name2{
+    transform: translate(250px, 220px);
+    height: 150vh;
+    position: relative;
+   margin-left: 50px;
+    margin-top: 50px;
+}
+/* 关于我 */
+.name h2{
+    position: absolute;
+    top: 50px;;             
+    right: 150px;;
+    color: white;
+    font-size: 50px;
+}
+/* Adan */
+.name2 h3{
+    color: white;
+    font-size: 50px;
+}
+.color{
+    height: 40vh;
+    background: linear-gradient(to bottom, #3552d3, #78ffd6,rgb(228, 194, 109));
+}
+.img1{
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+.img2{
+    position: relative;
+    left: 700px;
+    top: 150px;
+}
+.img3{
+    position: relative;
+    left: 1300px;
+    top: 30px;
+}
+.img4{
+    position: relative;
+    left: 100px;
+    top: 280px;
+}
+.img5{
+    position: relative;
+    left: 1200px;
+    top: 300px;
+}
+.img6{
+    position: relative;
+    left: 600px;
+    top: 30px;
+}
+.picture{
+    overflow: hidden;
+    height: 60vh;
+    background-color:rgb(228, 194, 109);
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 180px 80px;
+}
+.picture div{
+    width: 300px;
+    text-align: center;
+}
+.picture img{
+    width: 100%;
+    border-radius: 10px;
+}
+.product h3{
+    font-size: 20px;
+}
+.game0{
+     height: 20vh;
+    background:linear-gradient(to bottom,rgb(228, 194, 109),#ffad01) ;
+}
+.game1{
+    height: 30vh;
+    background-image:url("images/show.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.game1 h2{
+    top: 80px;;             
+    right: px;;
+    color: rgb(12, 12, 12);
+    font-size: 60px;
+    position: relative;
+}
+.game{
+    background-color:#ffad01;
+    overflow: hidden;
+    height: 60vh;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px 80px;
+}
+.game img{
+   width: 150%;
+   border-radius: 10px;
+}
+.game div{
+    width: 300px;
+    text-align: center;
+}

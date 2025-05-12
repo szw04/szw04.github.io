@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 导航栏 */
+header{
+    background-color:rgba(35, 28, 26, 0.1);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+     z-index: 1000
+}
+/* 导航栏logo */
+h1{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: -20px;
+    line-height: 80px;
+    background-image: url(images/未标题-final.jpg);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: 150px 150px;;
+    width: 110px;
+    height: 100px;
+    text-indent:-999px;
+}
+/* 导航栏选项 */
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+/* 导航栏子选项 */
+header li{
+    display: inline;
+     margin-right:4vw ;
+}
+/* 子选项超链接：颜色/取消下划线 */
+header a{
+    color: white;
+    text-decoration: none;
+}
+/* 子选项触碰显示下划线 */
+header a:hover{
+    text-decoration: underline;
+}
+/* 网页背景 */
+.start3{
+    background-color: antiquewhite;
+    color: white;
+    height: 100vh;
+    background-image:url("images/晚霞.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* 页尾版权说明设置 */
+.footer{
+    background-color:wheat ;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.start3 h2 {  
+        color: #333;
+        height: 400px;
+        font-size: 40px;
+        position: fixed;
+    }
+.photo0{
+    overflow: hidden;
+    height: 40vh;
+    background: linear-gradient(to bottom, #00070f, #3552d3);
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.photo0 h2{
+    top: 80px;;             
+    right: px;;
+    color: white;
+    font-size: 60px;
+    position: relative;
+}
+.container{
+     display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transform-style:preserve-3d ;
+}
+.container .box{
+    width: 500px;
+    height: 500px;
+    margin: 0 20px;
+    transition: transform 1s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,  #00070f);
+}
+.container .box img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;;
+}
+.container .box:hover{
+    transform: rotateY(180deg);
+}
+.photo div{
+    width: 2500px;
+    text-align: center;
+}
+.photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+.photo{
+    overflow: hidden;
+    height: 80vh;
+    background: linear-gradient(to bottom, #3552d3, #e870a5);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}

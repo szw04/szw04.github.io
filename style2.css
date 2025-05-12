@@ -1,0 +1,73 @@
+/* 区域边距 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 导航栏 */
+header{
+    background-color:rgba(35, 28, 26, 0.1);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+     z-index: 1000
+}
+/* 导航栏logo */
+h1{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: -20px;
+    line-height: 80px;
+    background-image: url(images/未标题-final.jpg);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: 150px 150px;;
+    width: 110px;
+    height: 100px;
+    text-indent:-999px;
+}
+/* 导航栏选项 */
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+/* 导航栏子选项 */
+header li{
+    display: inline;
+     margin-right:4vw ;
+}
+/* 子选项超链接：颜色/取消下划线 */
+header a{
+    color: white;
+    text-decoration: none;
+}
+/* 子选项触碰显示下划线 */
+header a:hover{
+    text-decoration: underline;
+}
+/* 网页背景 */
+.start{
+    background-color: antiquewhite;
+    color: white;
+    height: 100vh;
+    background-image:url("images/九寨沟.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* 页尾版权说明设置 */
+.footer{
+    background-color:wheat ;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
